@@ -3,7 +3,7 @@ class Student
 
   def self.new_from_db(row)
     student = self.new
-    
+    student.id = self
   end
 
   def self.all
